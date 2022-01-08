@@ -1,1 +1,26 @@
-// TODO
+.logo {
+  padding: 4.25rem 2rem;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.postInfo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+
+  img {
+    margin-right: 0.25rem;
+  }
+
+  time,
+  span {
+    color: var(--info);
+    line-height: 1.05rem;
+    font-size: 0.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
