@@ -7,6 +7,7 @@
 .postInfo {
   display: flex;
   align-items: center;
+  flex: wrap;
   gap: 2rem;
   margin-top: 1rem;
 
@@ -23,4 +24,17 @@
     justify-content: center;
     align-items: center;
   }
+}
+
+.previewButton {
+  margin: 5.5rem auto 2rem;
+  padding: 1.125rem;
+  width: 100%;
+  color: var(--background);
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  font-weight: 600;
+  text-align: center;
+  background: var(--heading);
+  border-radius: 4px;
 }

@@ -17,6 +17,15 @@
       color: var(--heading);
       margin-bottom: 1.5rem;
     }
+
+    .editedAt {
+      color: var(--info);
+      line-height: 1.05rem;
+      display: block;
+      font-size: 0.875rem;
+      margin-top: 1rem;
+      font-style: italic;
+    }
   }
 
   .banner {
@@ -35,7 +44,40 @@
     p,
     ul {
       text-align: justify;
-      margin: 2rem 0 4rem;
+      margin: 2rem 0 3.5rem;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      opacity: 0.1;
+      border-bottom: 1px solid #d7d7d7;
+    }
+  }
+
+  .postFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 3.5rem 0 5rem;
+
+    div:nth-child(2) {
+      text-align: right;
+    }
+
+    span {
+      display: block;
+      color: var(--heading);
+      font-size: 1.125rem;
+      line-height: 1.375rem;
+      margin-bottom: 0.75rem;
+    }
+
+    a {
+      color: var(--highlight);
+      font-size: 1rem;
+      font-weight: 600;
     }
   }
 }
